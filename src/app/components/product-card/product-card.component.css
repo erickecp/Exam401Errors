@@ -1,0 +1,29 @@
+.img-product{
+  border-radius: 30px !important;
+  width: 100% !important;
+  height: 150px !important;
+  max-height: 150px !important
+}
+
+i{
+  position: absolute;
+  font-size: 25px !important;
+  color: tomato !important;
+  margin-top: 8px !important;
+  margin-left: 10px !important;
+}
+
+.card-product{
+  border: none !important;
+  border-radius: 32px !important;
+  cursor: pointer;
+}
+.card-product:hover{
+  transform: scale(1.04);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.col-product {
+  padding: 0% !important;
+  border-radius: 30px !important;
+}

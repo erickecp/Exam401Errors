@@ -1,0 +1,14 @@
+<div class="card card-product bg-dark">
+  <i (click)="addToFavorites(product)" [class]="isInFavorites(product)" aria-hidden="true"></i>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6 col-product">
+        <img (click)="goToDetail(product.id)" class="img-fluid img-product"  [src]="product.image" alt="">
+      </div>
+      <div class="col-6 mt-2 text-light">
+        <h6 class="card-title"> {{product.title.length > 20 ? product.title.slice(0, 18) + '...' :  product.title}} </h6>
+        <b>{{product.price | currency}}</b>
+      </div>
+    </div>
+  </div>
+</div>
